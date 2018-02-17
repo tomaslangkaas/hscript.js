@@ -64,7 +64,7 @@
   /* supported tags */
   "a abbr address article aside audio b bdi bdo blockquote body button canvas " +
   "caption cite code colgroup data datalist dd del dfn div dl dt em fieldset " +
-  "figcaption figure footer form h1 h2 h3 h4 h5 h6 head header html i iframe ins " +
+  "figcaption figure footer form h1 h2 h3 h4 h5 h6 head header html i iframe ins " +
   "kbd label legend li main map mark meter nav noscript object ol optgroup option " +
   "output p pre progress q rb rp rt rtc ruby s samp script section select small " +
   "span strong style sub sup table tbody td template textarea tfoot th thead time " +

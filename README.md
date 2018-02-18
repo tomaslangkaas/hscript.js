@@ -4,7 +4,7 @@ JavaScript helper for generating HTML
 The global `hscript` has HTML tag methods for creating HTML like this:
 
 ```javascript
-var htmlString = function(){ with(hscript){ return(
+var htmlString = (function(){ with(hscript){ return(
   div(
     h1('hscript.js'),
     p('An ', 
@@ -14,13 +14,13 @@ var htmlString = function(){ with(hscript){ return(
       ' library!'
     )
   )
-)}}();
+)}})();
 ```
 
 with hyperscript syntax:
 
 ```javascript
-var htmlString = function(){ var h = hscript; return(
+var htmlString = (function(){ var h = hscript; return(
   h('div',
     h('h1', 'hscript.js'),
     h('p', 'An ', 
@@ -30,13 +30,13 @@ var htmlString = function(){ var h = hscript; return(
       ' library!'
     )
   )
-)}}();
+)}})();
 ```
 
 or with a mix:
 
 ```javascript
-var htmlString = function(){ with(hscript){ return(
+var htmlString = (function(){ with(hscript){ return(
   h('div',
     h1('hscript.js'),
     h('p', 'An ', 
@@ -46,7 +46,7 @@ var htmlString = function(){ with(hscript){ return(
       ' library!'
     )
   )
-)}}();
+)}})();
 ```
 
 ## hscript.js methods

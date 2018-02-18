@@ -1,5 +1,5 @@
 (function(tags, voidTags, globalName) {
-  window[globalName] = h;
+  this[globalName] = h;
   var i = 0,
       space = " ",
       blank = "",

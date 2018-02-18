@@ -60,6 +60,7 @@ h('p#specialty.highlighted.note') // "<p id="specialty" class="highlighted note"
 ### hyperscript
 
 hscript.h()  
+hscript()
 
 ### HTML5 tags
 

@@ -1,5 +1,5 @@
 # hscript.js
-JavaScript helper for generating HTML
+*JavaScript helper for generating HTML strings*
 
 The global `hscript` has HTML tag methods for creating HTML like this:
 

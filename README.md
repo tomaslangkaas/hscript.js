@@ -51,8 +51,8 @@ var htmlString = (function(){ with(hscript){ return(
 
 The hyperscript syntax supports shortcuts for classes, id and `<div>` tags:
 ```javascript
-h(''); // "<div></div>"  
-h('p#specialty.highlighted.note') // "<p id="specialty" class="highlighted note"></p>"
+h(''); // '<div></div>'  
+h('p#specialty.highlighted.note') // '<p id="specialty" class="highlighted note"></p>'
 ```
 
 ## hscript.js methods
